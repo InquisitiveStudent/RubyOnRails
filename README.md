@@ -1,6 +1,6 @@
 Training on Rails
 ===
-#####Created by Tan Chin Siang
+##### Created by Tan Chin Siang
 
 Ruby version
 Ruby: 2.4.0  
