@@ -21,8 +21,9 @@ Database creation
 
 `rails g model model_name column:type column:type column:type`  
 
-`rails g model Comment username:string body:text post:references  
-references: foreign key to Post`  
+`rails g model Comment username:string body:text post:references`  
+
+references: foreign key to Post  
 
 Database initialization  
 ---
@@ -38,6 +39,6 @@ Create model: `rails g model Comment`
 Destroy model: `rails d model Comment`   
 Create html: index.html.erb   
 
-##Validation
-models/post.rb
-sets title with minimum length of 5.
+## Validation  
+models/post.rb  
+sets title with minimum length of 5.  
