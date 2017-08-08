@@ -1,0 +1,13 @@
+<h1>Blog Posts</h1>
+<!-- no equal sign <%==%> because equal sign is used when there is a output-->
+
+
+<!--loop every time when posts is true-->
+<% @posts.each do |post| %>
+    <div class="well">
+      <h3><%= post.title %></h3>
+      <p><%= post.body %></p>
+      <%= link_to "Read More", post_path(post), :class => 'btn btn-default' %>
+    </div>
+
+<% end %>
